@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    background-image: url("image/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 1050px;
+    margin: 20px auto 50px auto;
+    background-color: #edddd4;
+}
+header{
+    background-color: #5a189a;
+    padding-top: 25px;
+}
+header img{
+    float: left;
+    height: 80px;
+}
+header>h1,header>h3{
+    text-indent: 20px;
+    line-height:0px ;
+    color: blanchedalmond;
+    padding-bottom: 30px;
+}
+.navbar{
+    background-color:#7b2cbf ;
+    padding: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 35px;
+}
+.navbar li{
+    display: inline;
+    padding: 15px;
+}
+.navbar li a{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #efd3d7;
+    text-decoration: none;
+    padding: 5px;
+}
+.navbar a:hover,a.current{
+    background-color: #DD2C24;
+    color: #fffd82;
+    border-radius: 5px;
+}
+section.course{
+    float: left;
+    width: 750px;
+    border-right: 1px solid #eeeeee;
+}
+article{
+    clear: both;
+    width: 100%;
+    overflow: auto;
+}
+figure{
+    float: left;
+    width: 280px;
+    height: 200px;
+    margin: 20px;
+    padding: 5px;
+}
+article>p{
+    text-align: justify;
+}
+aside{
+    width: 250px;
+    float: left;
+    padding-left: 30px;
+}
+.other-courses a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #38b000;
+}
+.other-courses a:hover{
+    color: #DD2C24;
+}
+h3{
+    color: #DD2C24;
+}
+h2{
+    color: #5A189A;
+}
+p{
+    line-height: 25px;
+}
+footer{
+    clear: both;
+    background-color:#7b2cbf;
+    padding: 15px;
+    text-indent: 35px;
+    color: #ffebcd;
+    font-size: 30px;
+    word-spacing: 20px;
+}
+@media screen and (max-width:620px){
+    .navbar{
+        margin: 0 auto;
+       padding: 0; 
+    }
+    .navbar ul{
+        margin-left: 25vw;
+    }
+    .navbar ul li{
+       display: block;
+       padding-top: 4px;
+    }
+    .art1 figure{
+        width: 100%;
+        height: auto;
+    }
+    .art2 figure{
+        width: 100%;
+        height: auto;
+    }
+    .art1 h2,h3,p{
+        height: auto;
+        padding-left: 25px;
+        padding-right: 65px;
+    }
+    .art2 h2,h3,p{
+        height: auto;
+        padding-left: 25px;
+        padding-right: 65px;
+    }
+    aside{
+        width: 100%;
+    }
+    aside section.other-courses{
+        width: 100%;
+    }
+    aside section.contact{
+        width: 100%;
+    }
+
+    
+   
+
+}
+
